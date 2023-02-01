@@ -11,6 +11,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Buttons */
+.btn {
+   border-radius: 5px;
+   padding: .3rem .8rem;
+   font-size: .8rem; 
+   border: 0;
+   cursor: pointer;
+}
+
+.btn-filled {
+    background-color: #47ADF1;
+    color: white;
+    border: 1px solid #47ADF1;
+}
+
+.btn-empty {
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+}
+
 /* HEADER */
 .header {
     background-color: white;
@@ -27,3 +48,17 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
+
+/* MAIN */
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.actions {
+    padding: .8rem 1.4rem;
+    border-bottom: 4px solid lightgray;
+}
+
