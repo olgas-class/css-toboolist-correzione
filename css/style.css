@@ -1,3 +1,29 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
 body {
-    background-color: aquamarine;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background-color: white;
+    padding: 0 20px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.header-logo {
+    vertical-align: middle;
+}
+
+.header-title {
+    display: inline-block;
+    vertical-align: middle;
 }
