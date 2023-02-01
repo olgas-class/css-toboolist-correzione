@@ -57,8 +57,66 @@ body {
     border-radius: 5px;
 }
 
+/* Actions */
 .actions {
     padding: .8rem 1.4rem;
     border-bottom: 4px solid lightgray;
 }
 
+/* Tasks */
+.tasks {
+    padding: 1.2rem 1.4rem;
+}
+
+.tasks ul {
+    list-style-type: none;    
+}
+
+.main-list > li {
+    margin-bottom: .8rem;
+}
+
+.arrow {
+    margin-right: .5rem;
+    font-size: 1rem;
+}
+
+.secondary-list > li {
+    line-height: 2.4rem;
+}
+
+.circle {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.checked {
+    border-color: green;
+    color: green;
+}
+
+.cross {
+    border-color: red;
+    color: red;
+}
+
+.tag {
+   background-color: grey;
+   padding: .5rem 1rem;
+   margin-left: 1rem; 
+   border-radius: 20px;
+   color: white;
+}
+
+.editorial {
+    background-color: #47ADF1;
+}
+
+.recruiting {
+    background-color: lightcoral;
+}
