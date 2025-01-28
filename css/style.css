@@ -1,0 +1,18 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+  padding: 10px 20px;
+}
+
+/* MAIN */
+main {
+  background-color: lightblue;
+  /* debug - regola di prova per poi cancellarla */
+  height: 600px;
+}
