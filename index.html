@@ -1,23 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toboolist</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <img src="./img/toboolist-logo.jpg" alt="Logo Toboolist">
-  </header>
-  <!-- End Header -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toboolist</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <img src="./img/toboolist-logo.jpg" alt="Logo Toboolist" />
+    </header>
+    <!-- End Header -->
 
-  <!-- Main -->
-  <main>
-   
-  </main>
-  <!-- End Main -->
-  
-</body>
+    <!-- Main -->
+    <main>
+      <div class="container">
+        <!-- Actions block -->
+        <div class="actions-block">
+          <button class="btn btn-blue">Add Task</button>
+          <button class="btn btn-white">Add Section</button>
+        </div>
+        <!-- End Actions block -->
+
+        <!-- Todos list block -->
+        <div class="todos-block">
+          <ul class="main-list">
+            <li>
+              <h3><span class="chevron">&blacktriangledown;</span> <span>New Task</span></h3>
+              <ul class="inner-list">
+                <li>
+                  <span class="circle check">&check;</span>
+                  <span>Quarterly Newsletter</span>
+                  <span class="tag editorial">Editorial</span>
+                </li>
+                <li>
+                  <span class="circle check">&check;</span>
+                  <span>Quarterly Newsletter</span>
+                  <span class="tag editorial">Editorial</span>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3><span class="chevron">&blacktriangledown;</span> <span>New Task</span></h3>
+              <ul class="inner-list">
+                <li>
+                  <span class="circle cross">&check;</span>
+                  <span>Quarterly Newsletter</span>
+                  <span class="tag q1">Q1 Goals</span>
+                </li>
+                <li>
+                  <span class="circle cross">&check;</span>
+                  <span>Quarterly Newsletter</span>
+                  <span class="tag q1">Q1 Goals</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /Todos list block -->
+      </div>
+    </main>
+    <!-- End Main -->
+  </body>
 </html>
